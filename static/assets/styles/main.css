@@ -28,10 +28,15 @@ table{
     width: 80%
 }
 body{
-    background-color: #010a21;
-    color: white;
+    background-color: #fdfdfd;
+    color: #0c0c0c;
     padding: 15px;
 }
 .values{
     padding: 20px;
+}
+.carousel-inner{
+    width: 20px;
+    display: block;
+    margin: auto;
 }
