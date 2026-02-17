@@ -22,29 +22,16 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="{% url 'about' %}">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="{% url 'profile' %}">Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="profile.html">Profile</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="member_details.html">Member Details</a>
+          <a class="nav-link" href="{% url 'member_details' %}">Member Details</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="member_list.html">Member List</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="member_list.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            More Links
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Business</a></li>
-            <li><a class="dropdown-item" href="#">Farmers</a></li>
-            <li><a class="dropdown-item" href="#">Teachers</a></li>
-          </ul>
+          <a class="nav-link" href="{% url 'member_list' %}">Member List</a>
         </li>
       </ul>
     </div>
@@ -70,5 +57,5 @@
 
 <script src="../../static/assets/styles/boostrap/js/bootstrap.bundle.js"></script>
 
-</body>\
+</body>
 </html>
